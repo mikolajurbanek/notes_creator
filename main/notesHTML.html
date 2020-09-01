@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="notesJS.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="notesStyle.css" media="screen">
+
+</head>
+<body>
+
+
+
+<template id="note-template">
+    <form class="note">
+        <div class="content_handler">
+            <p class="note_content"></p>
+        </div>
+        <button class="edit" type="submit"> EDIT </button>
+        <button class="delete"> X </button>
+    </form>
+</template>
+
+
+<div class="notepad">
+    <p class="header">Mike's NotePad</p>
+    <form class="new_note">
+        <button type="submit" class="add_note"> + </button>
+        <input class="note_holder" placeholder="Add new note">
+    </form>
+</div>
+
+
+
+</body>
+</html>
